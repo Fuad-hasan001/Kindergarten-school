@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add tailwindCSS play cdn file -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Kindergarten School</title>
+
+    <style>
+        @media (min-width: 430px){
+            .banner{
+                width: 80% !important; 
+                height: 15vh !important;
+                margin: auto !important;
+                
+            }
+        }
+      
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- navigation Section -->
+        <!-- If you click Home / About Us / Contact option, you can Jump Home / About Us / Contact page-->
+        <section class="nav-container">
+            <nav class="p-5">
+                <ul class="flex justify-center gap-10 font-semibold">
+                    <li>Home</li>
+                    <li class="font-extrabold"><a href="index.html">About us</a></li>
+                    <li><a href="contactUs.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- banner Section -->
+        <section class="banner-container">
+            <div class="bg-cover bg-no-repeat bg-center flex justify-center items-center text-center" style="width: 100%; height: 80vh; background-image: url('./assets/banner.png')
+            ">
+                <div class="banner-info text-white">
+                    <h1 class="lg:text-6xl sm:text-2xl font-bold">About Us</h1>
+
+                    <p class="lg:text-sm lg:mt-3 lg:mb-3 sm:text-xs  sm:mt-2 sm:mb-2">From preschool to pre-tertiary, our students enjoy fun,<br>interactive
+                        and relevant lessons and are empowered to think <br> beyond the confines of the classroom.</p>
+
+                    <button class="text-black lg:text-sm sm:text-xs font-semibold p-2 bg-yellow-300 rounded-lg">See More</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- Preparing Students to Achieve Success -->
+        
+        <section class="bg-yellow-50">
+            <h2 class="text-center font-bold lg:text-2xl lg:pt-10 lg:pb-10 sm:text-lg sm:w-6/12 sm:mx-auto sm:pt-5 sm:pb-5">Preparing Students to Achieve Success</h2>
+
+            <article class="w-full mx-auto flex lg:flex-row  sm:flex-col-reverse justify-center items-center gap-10">
+                <div class="part-1 lg:w-4/12 sm:w-9/12">
+                    <h3 class="font-bold text-2xl ">Developing Confident and <br>Successful Learners</h3>
+                    <hr class="w-3/6 border border-yellow-300">
+
+                    <p class="my-3 sm:text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero magni obcaecati
+                        nostrum, dolorum neque itaque dolores impedit accusantium non debitis.</p>
+
+                    <button class="text-black text-sm font-semibold px-10 py-2 p bg-yellow-300 rounded-lg">View
+                        More</button>
+                </div>
+
+                <div class="w-3/12">
+                    <img class="w-full" src="./assets/image 1.png" alt="">
+                </div>
+            </article>
+
+            <article class="w-full mx-auto flex lg:flex-row  sm:flex-col justify-center items-center gap-10">
+
+                <div class="w-3/12">
+                    <img class="w-full" src="./assets/image 2.png" alt="">
+                </div>
+
+                <div class="part-1 w-7/12 lg:text-right sm:text-center">
+                    <h3 class="font-bold lg:text-2xl sm:text-lg">Enjoy Learning with a Unique <br>Classroom Experience</h3>
+                    <hr class="w-3/6 ml-28 border border-yellow-300 ml-56">
+
+                    <p class="my-3 sm:text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero magni obcaecati
+                        nostrum, dolorum neque itaque dolores impedit accusantium non debitis.</p>
+
+                    <button class="text-black text-sm font-semibold px-10 py-2 p bg-yellow-300 rounded-lg">View
+                        More</button>
+                </div>
+
+            </article>
+
+            <article class="w-full mx-auto flex lg:flex-row  sm:flex-col-reverse justify-center items-center gap-10">
+                <div class="part-1 w-7/12 text-center">
+                    <h3 class="font-bold lg:text-2xl sm:text-lg ">Passionate Teachers That <br>Make a Difference</h3>
+                    <hr class="w-3/6 sm:ml-28 border border-yellow-300">
+
+                    <p class="my-3 sm:text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero magni obcaecati
+                        nostrum, dolorum neque itaque dolores impedit accusantium non debitis.</p>
+
+                    <button class="text-black text-sm font-semibold px-10 py-2 p bg-yellow-300 rounded-lg">View
+                        More</button>
+                </div>
+
+                <div class="w-3/12">
+                    <img class="w-full" src="./assets/image 3.png" alt="">
+                </div>
+            </article>
+        </section>
+
+        <!-- happy Customers Says -->
+        <section>
+            <div class="customer-feedback my-20">
+                <!-- Upper Heading -->
+                <div class="heading flex justify-around my-10">
+                    <div>
+                        <h2 class="font-bold text-xl">Happy Customer Says</h2>
+                    </div>
+
+                    <div class="flex gap-5">
+                        <div class=" border rounded-2xl   w-5 h-6 p-1">
+                            <img class="w-2" src="./assets/arrow-left-dark.png" alt="">
+                        </div>
+
+                        <div class="border rounded-2xl   w-5 h-6 p-1 bg-yellow-300">
+                            <img class="w-2" src="./assets/arrow-right-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- feedback -->
+                <div class="feedback-container w-10/12 mx-auto flex lg:flex-row sm:flex-col justify-center items-center gap-10">
+                    <!-- feedback 1 -->
+                    <div class="border rounded-xl text-center flex flex-col justify-center p-10 bg-yellow-50 relative">
+                        <!-- Comma -->
+                        <img class="w-10 absolute top-5 right-5" src="./assets/comma.png" alt="">
+                        <!-- Customer Image -->
+                        <img class="w-20 mx-auto" src="./assets/face.png" alt="">
+                        <h4>Lyod Gomez</h4>
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+                            was born and I will give you a complete account of the system.</p>
+                    </div>
+                    <!-- feedback 2 -->
+                    <div class="border rounded-xl text-center flex flex-col justify-center p-10 bg-yellow-50 relative">
+                        <!-- Comma -->
+                        <img class="w-10 absolute top-5 right-5" src="./assets/comma.png" alt="">
+                        <!-- Customer Image -->
+                        <img class="w-20 mx-auto" src="./assets/face.png" alt="">
+                        <h4>Lyod Gomez</h4>
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+                            was born and I will give you a complete account of the system.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Why it's Works -->
+        <section>
+            <div class="whyWorks-container bg-yellow-50 py-20">
+                <!-- heading -->
+                <div class="w-60 mx-auto">
+                    <h2 class="text-3xl font-bold">Why it's works</h2>
+                    <hr class="w-5/6 border border-yellow-300">
+                </div>
+
+                <!-- ITEMS -->
+                <div class="flex lg:flex-row sm:flex-col justify-center items-center pt-10 pb-32">
+                    <!-- item-1 -->
+                    <div class="text-center w-9/12 flex flex-col justify-center p-10 ">
+
+                        <img class="w-30 mx-auto" src="./assets/icon1.png" alt="">
+                        <h4 class="font-bold text-lg">Personalized Learning</h4>
+                        <p>Students Practice at their own pace.first filling in gaps in their understanding and then
+                            accelerating their learning.</p>
+                    </div>
+                    <!-- item-2 -->
+                    <div class="text-center w-9/12 flex flex-col justify-center p-10 ">
+
+                        <img class="w-30 mx-auto" src="./assets/icon2.png" alt="">
+                        <h4 class="font-bold text-lg">Trusted Content</h4>
+                        <p>Created by experts, library of trusted practice and lessons covers math, science, and
+                            more.Always free for learners and teachers.</p>
+                    </div>
+                    <!-- item-3 -->
+                    <div class="text-center w-8/12 flex flex-col justify-center p-10 ">
+
+                        <img class="w-30 mx-auto" src="./assets/icon3.png" alt="">
+                        <h4 class="font-bold text-lg">Tools to empower teachers</h4>
+                        <p>Teachers can identify gaps in their students' understanding, tailor instruction,and meet the
+                            need of every student.</p>
+                    </div>
+                </div>
+
+                <hr class="w-full border-y-4 border-yellow-300">
+            </div>
+
+        </section>
+    </main>
+
+    <!-------------------- Optional ----------------------->
+    <footer>
+
+        <!-- Contact US Section -->
+        <section>
+            <!-- Contact Us Heading -->
+            <div class="text-center lg:w-2/6 sm:w-3/6 mx-auto m-10">
+                <h1 class="font-bold lg:text-5xl sm:text-4xl">Contact Us</h1>
+                <p class="mt-5">Get in touch! Have a question or feedback? Use our contact form or drop us an
+                    email.We're here to help!</p>
+            </div>
+
+            <!-- Contact form, message and Location map -->
+
+            <div class="flex justify-center ">
+                <div class=" rounded-l-lg w-5/12 bg-neutral-900 text-white text-center p-4">
+
+                    <h3 class="font-bold text-white text-3xl text-center">Get in touch with us</h3>
+
+                    <!-- Contact Us Form -->
+                    <form action="" class="m-5 text-left">
+                        <label for="">Name</label><br>
+                        <input class="border rounded bg-gray-300 w-full text-black" type="text" name="" id=""
+                            placeholder="Rachel Joe">
+
+                        <br>
+                        <label for="">Email</label><br>
+                        <input class="border rounded bg-gray-300 w-full text-black" type="email" name="" id=""
+                            placeholder="Rachel@domain.com">
+
+                        <br>
+                        <label for="">Message</label><br>
+                        <textarea class="rounded bg-gray-300 h-20 w-full text-black" name="" id=""
+                             placeholder="Type your query here....."></textarea>
+                    </form>
+
+                    <button class=" mx-auto rounded-lg px-2 py-2 text-black font-bold bg-yellow-300">Send my
+                        message</button>
+                </div>
+
+                <!-- Location-Map -->
+                <div class="w-5/12 h-70">
+                    <img w-full class="rounded-r-lg " src="./assets/map.png" alt="">
+                </div>
+            </div>
+
+        </section>
+    </footer>
+</body>
+
+</html>
